@@ -1,0 +1,59 @@
+# ----------------------------------------------------------
+# 💡 OrderProcessingSystem - .gitignore
+# ----------------------------------------------------------
+
+# === Java ===
+*.class
+*.jar
+*.war
+*.ear
+*.log
+hs_err_pid*
+replay_pid*
+
+# === Spring Boot specific ===
+target/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# === Gradle ===
+/bin/
+/gradle/
+.gradle/
+build/
+out/
+!gradle/wrapper/gradle-wrapper.jar
+
+# === Eclipse / IntelliJ / VSCode ===
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.vscode/
+
+# === OS specific ===
+.DS_Store
+Thumbs.db
+
+# === Logs and temp files ===
+*.log
+logs/
+tmp/
+*.tmp
+
+# === Test reports ===
+test-output/
+surefire-reports/
+jacoco.exec
+
+# === H2 Database ===
+*.mv.db
+*.trace.db
+
+# === Environment ===
+.env
+.env.local
+
+# === Misc ===
+.metadata/
